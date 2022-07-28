@@ -14,3 +14,5 @@
 - 📫 Feel free to contact me if anything is wrong or if anything needs to be changed 😎!  **labrijisaad@gmail.com**
 
 <a href="https://colab.research.google.com/github/labrijisaad/Youtube-video-transcriptor" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+> - 🙌 Notebook made by [@labriji_saad](https://github.com/labrijisaad)
+> - 🔗 Linledin [@labriji_saad](https://www.linkedin.com/in/labrijisaad/)
