@@ -9,7 +9,7 @@
  
  > 2️⃣ This script can sometimes not detect text correctly, it's mainly due to noises or the way we speak in the video (speaking too fast or too slow)
  
- > 3️⃣ The general idea summary model is a community model available at [Huggingface](https://huggingface.co/) , it can sometimes get the general idea wrong, especially if there is a lack of data.
+ > 3️⃣ The general idea summary model is a community model available at [Huggingface](https://huggingface.co/) **`that only can be used on english texts`**, it can sometimes get the general idea wrong, especially if there is a lack of data.
 
 - 📫 Feel free to contact me if anything is wrong or if anything needs to be changed 😎!  **labrijisaad@gmail.com**
 
