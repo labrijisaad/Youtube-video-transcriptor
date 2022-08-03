@@ -12,6 +12,16 @@
  > 3️⃣ The general idea summary model is a community model available at [Huggingface](https://huggingface.co/) **`that only can be used on english texts`**, it can sometimes get the general idea wrong, especially if there is a lack of data.
  
 
+<p align="center">❓❓❓ HOW TO USE ❓❓❓</p>
+
+```
+>>> 1️⃣ Run the notebook in colab (make sure you are logged into colab with your google account),
+>>> 2️⃣ Paste the URL of the youtube video you want to transcribe into the `url` variable,
+>>> 3️⃣ Replace the `lang` variable with the language spoken in the video (everything is explained in the notebook)
+>>> 4️⃣ Run all cells (shortcut: CTRL + F9)
+>>> 5️⃣ Download the generated TXT files (there are two in total, one for the transcription, the other for the translated transcription)
+```
+
 <p align="center">⚠️⚠️⚠️ UPDATE ⚠️⚠️⚠️</p>
 
 ```
