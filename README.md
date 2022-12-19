@@ -1,10 +1,12 @@
 ## 🎥 `Youtube-video-transcriptor in Python` 🐍
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74627083/181471696-3de07398-b0d3-4a78-9fb9-06c49528b5c6.png" width="70%/>
 </p>
 
-- 🎯 In this project, I developed a script in Python that uses Google's speech-to-text technology to transcribe audio from YouTube videos.
-- ⚠️ Please note the following before using the script:
+> - 🎯 In this project, I developed a script in Python that uses Google's speech-to-text technology to transcribe audio from YouTube videos.
+> - ⚠️ Please note the following before using the script:
+
   - 1️⃣ **`The script is intended to be run on Google Colaboratory!`**  <a href="https://colab.research.google.com/github/labrijisaad/Youtube-video-transcriptor" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
   - 2️⃣ The script may not always accurately transcribe text due to noise or the way the speaker talks in the video (e.g. speaking too fast or too slow).
   - 3️⃣ **`The summary model`** used in the script is a community model available on [Huggingface](https://huggingface.co/) that **`only supports English text`**. It may not always accurately capture the general idea of the transcription, especially if there is a lack of data.
