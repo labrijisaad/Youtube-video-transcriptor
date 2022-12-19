@@ -1,33 +1,31 @@
 ## 🎥 `Youtube-video-transcriptor in Python` 🐍
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74627083/181471696-3de07398-b0d3-4a78-9fb9-06c49528b5c6.png" />
+  <img src="https://user-images.githubusercontent.com/74627083/181471696-3de07398-b0d3-4a78-9fb9-06c49528b5c6.png" width="70%/>
 </p>
 
-- 🎯 In this notebook, I tried to write a script capable of transcribing youtube videos (audios in general) using the google's speech-to-text.
-- ⚠️ Things to consider before using this notebook:
- > 1️⃣ **`This script is meant to be run in google colaboratory!`**  <a href="https://colab.research.google.com/github/labrijisaad/Youtube-video-transcriptor" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
- 
- > 2️⃣ This script can sometimes not detect text correctly, it's mainly due to noises or the way we speak in the video (speaking too fast or too slow)
- 
- > 3️⃣ The general idea summary model is a community model available at [Huggingface](https://huggingface.co/) **`that only can be used on english texts`**, it can sometimes get the general idea wrong, especially if there is a lack of data.
+- 🎯 In this project, I developed a script in Python that uses Google's speech-to-text technology to transcribe audio from YouTube videos.
+- ⚠️ Please note the following before using the script:
+  - 1️⃣ **`The script is intended to be run on Google Colaboratory!`**  <a href="https://colab.research.google.com/github/labrijisaad/Youtube-video-transcriptor" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+  - 2️⃣ The script may not always accurately transcribe text due to noise or the way the speaker talks in the video (e.g. speaking too fast or too slow).
+  - 3️⃣ **`The summary model`** used in the script is a community model available on [Huggingface](https://huggingface.co/) that **`only supports English text`**. It may not always accurately capture the general idea of the transcription, especially if there is a lack of data.
  
 
 <p align="center">❓❓❓ HOW TO USE ❓❓❓</p>
 
 ```
->>> 1️⃣ Run the notebook in colab (make sure you are logged into colab with your google account),
->>> 2️⃣ Paste the URL of the youtube video you want to transcribe into the `url` variable,
->>> 3️⃣ Replace the `lang` variable with the language spoken in the video (everything is explained in the notebook)
->>> 4️⃣ Run all cells (shortcut: CTRL + F9)
->>> 5️⃣ Download the generated TXT files (there are two in total, one for the transcription, the other for the translated transcription)
+>>> 1️⃣ Run the notebook in Colab (make sure you are logged into Colab with your Google account).
+>>> 2️⃣ Paste the URL of the youtube video you want to transcribe into the `url` variable.
+>>> 3️⃣ Replace the `lang` variable with the language spoken in the video (all instructions are provided in the notebook).
+>>> 4️⃣ Run all cells (shortcut: `CTRL + F9`)
+>>> 5️⃣ Download the generated TXT files (there will be two in total: one for the transcription and one for the translated transcription).
 ```
 
 <p align="center">⚠️⚠️⚠️ UPDATE ⚠️⚠️⚠️</p>
 
 ```
->>> In order to optimize the transcription time, I updated the script using python threads 😋, it helps to use the CPU resources provided by colab to the maximum.
->>> In terms of performance, you can transcribe a 30min video in ~35sec (it was ~2min30sec with the old script)
->>> You can find the code with threads in the updated notebook 😁
+>>> To optimize transcription time, I have updated the script to use `Python threads`, which helps to fully utilize the CPU resources provided by Colab. 
+>>> As a result, the performance has significantly improved - a 30-minute video can now be transcribed in approximately 35 seconds, compared to the previous time of 2 minutes and 30 seconds. 
+>>> You can find the updated script with threads in the accompanying notebook. 😁
 ```
 
 > - 🙌 Notebook made by [@labriji_saad](https://github.com/labrijisaad)
